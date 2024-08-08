@@ -12,5 +12,5 @@ class B(Parent):
 
 
 
-b = b()
+b = B()
 b.method()
