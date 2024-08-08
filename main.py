@@ -1,14 +1,14 @@
 class Parent:
   def method(self):
-    pass
+    print("pa")
 
 class A(Parent):
   def method(self):
-    pass
+    print("a")
 
 class B(Parent):
   def method(self):
-    pass
+    print("b")
 
 
 
