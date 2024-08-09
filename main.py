@@ -12,5 +12,13 @@ class B(Parent):
 
 
 
-b = B()
-b.method()
+flag = False
+
+
+if flag:
+  b = A()
+  b.method()
+
+else:
+  b = B()
+  b.method()
