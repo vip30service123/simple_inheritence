@@ -1,6 +1,4 @@
-class Parent:
-  def method(self):
-    print("pa")
+from parent import Parent
 
 class A(Parent):
   def method(self):
